@@ -1,0 +1,9 @@
+.vscode
+*.ipynb
+checkpoints
+*.parquet
+__pycache__
+wandb
+
+/translations/*/*
+!/translations/*/load_data.py
