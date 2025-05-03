@@ -1,14 +1,13 @@
 # Language Fusion for Parameter-Efficient Cross-lingual Transfer
 [![arXiv](https://img.shields.io/badge/arXiv-2501.06892-b31b1b.svg)](https://arxiv.org/abs/2501.06892)
 
-
 <center>
 <img src="cover.jpeg" width="400">
 </center>
 
 ## Fusion for Language Representations (FLARE) 🔥
 
-### Quickstart
+## 🚀 Quickstart
 
 **1. Clone the repository**
 
@@ -42,9 +41,9 @@ Adapt the fine-tuned Gemma 2 model from English XNLI to Spanish:
 bash train_flare.sh
 ```
 
-### Benchmark
+## Benchmark
 
-**Supported Datasets**
+**📚 Supported Datasets**
 
 | Datasets | Links |
 |---------|------|
@@ -52,7 +51,7 @@ bash train_flare.sh
 | NusaX | [Paper](https://arxiv.org/abs/2205.15960),  [Data](https://github.com/IndoNLP/nusax)     |
 | TyDiQA | [Paper](https://arxiv.org/abs/2003.05002),  [Data](https://github.com/google-research-datasets/tydiqa)     |
 
-**Supported Models**
+**🤖 Supported Models**
 
 | Model | Size | Links |
 |---------|------|------|
@@ -64,12 +63,12 @@ bash train_flare.sh
 > By default Llama 3.1 and Gemma 2 are loaded with 4 bit quantization and trained with LoRAs injected in all linear layers [Dettmers et al., 2023](https://arxiv.org/abs/2305.14314).
 
 > [!NOTE]
-> We include a [step-by-step guide](add_new_models.md) to add new models.
-
-
+> 🧩 Want to use FLARE with a different model? Follow the [step-by-step guide](add_new_models.md) to add new models.
 
 
 ---
+
+## ⚙️ Scripts & Parameters
 
 **We provide an overview of the supported input parameters in `run_task_ft.py` for initial task adaptation to English task data.**
 
