@@ -12,7 +12,7 @@
 **1. Clone the repository**
 
 ```bash
-git clone https://github.com/*/FLARE
+git clone https://github.com/pnborchert/FLARE
 ```
 
 Ensure you have the required dependencies installed. Check the `requirements.txt` file for details.
