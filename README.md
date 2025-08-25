@@ -105,13 +105,24 @@ bash train_flare.sh
 
 ## Reference
 ```bibtex
-@misc{borchert2025languagefusionparameterefficientcrosslingual,
-      title={Language Fusion for Parameter-Efficient Cross-lingual Transfer}, 
-      author={Philipp Borchert and Ivan Vulić and Marie-Francine Moens and Jochen De Weerdt},
-      year={2025},
-      eprint={2501.06892},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2501.06892}, 
+@inproceedings{borchert-etal-2025-language,
+    title = "Language Fusion for Parameter-Efficient Cross-lingual Transfer",
+    author = "Borchert, Philipp  and
+      Vuli{\'c}, Ivan  and
+      Moens, Marie-Francine  and
+      De Weerdt, Jochen",
+    editor = "Che, Wanxiang  and
+      Nabende, Joyce  and
+      Shutova, Ekaterina  and
+      Pilehvar, Mohammad Taher",
+    booktitle = "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = jul,
+    year = "2025",
+    address = "Vienna, Austria",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.acl-long.1255/",
+    doi = "10.18653/v1/2025.acl-long.1255",
+    pages = "25848--25868",
+    ISBN = "979-8-89176-251-0",
 }
 ```
